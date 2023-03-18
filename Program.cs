@@ -4,7 +4,14 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello WOrld!");
+            Person myObject = new Person();
+            myObject.name = "shahidfffffff";
+            Console.WriteLine(myObject.name);
         }
     }
 }
+
+ class Person{
+    public string? name {get; set;}
+}
+
